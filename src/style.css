@@ -1,0 +1,100 @@
+body {
+    background: #eee;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 550px;
+    padding: 25px;
+    border: 1px solid Black;
+    background-color: #f5f4f4;
+    box-shadow: 8px 9px 20px rgb(0 0 0 / 40%);
+}
+
+.equation {
+    font-size: 20pt;
+}
+
+.column-one {
+    width: 271px;
+    border-radius: 0px;
+}
+
+.column-two {
+    border-radius: 0px;
+}
+
+.column-three {
+    border-radius: 0px;
+}
+
+.results {
+    width: 550px;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #000000;
+    border-spacing: 7px 11px;
+}
+
+.first-row {
+    color: #fff;
+    background-color: #652735;
+}
+
+tr {
+    text-align: center;
+    height: 50px;
+}
+
+tr:nth-child(2n+2) {
+    background-color: #D4BEC3;
+    border-radius: 20px;
+    border-spacing: 7px 11px;
+
+}
+
+tr:nth-child(2n+3) {
+    background-color: #D4C4C8;
+    border-radius: 20px;
+
+}
+
+td {
+    border-radius: 10px;
+}
+
+.results td[colsplan="2"] {
+    text-align: center;
+}
+
+input[type="button"] {
+    margin-top: -50cm;
+    background: #D4C4C8;
+    border: none;
+    padding: 10px 35px;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 6px;
+}
+
+input[type="button"]:hover {
+    opacity: 0.8;
+}
+
+input[type="number"] {
+    width: 40px;
+    text-align: right;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.4rem;
+    margin-bot: -50px;
+}
+

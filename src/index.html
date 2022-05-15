@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadratic equation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2></h2>
+    <div class="wrapper">
+        <form action="" class="equation">
+            <input type="number" id="a" placeholder="a"> x<sup>2</sup>+
+            <input type="number" id="b" placeholder="b"> x +
+            <input type="number" id="c" placeholder="c"> = 0
+            <br><br><input type="button" value="solve" onclick="appender()">
+        </form>
+        <table id="results" class="results">
+            <tr class="first-row">
+                <td class="column-one">equation</td>
+                <td class="column-two">D</td>
+                <td colspan="2" class="column-three">roots</td>
+            </tr>
+        </table>
+    </div>
+    <div class="content"></div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
