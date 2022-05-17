@@ -53,13 +53,11 @@ tr:nth-child(2n+2) {
     background-color: #D4BEC3;
     border-radius: 20px;
     border-spacing: 7px 11px;
-
 }
 
 tr:nth-child(2n+3) {
     background-color: #D4C4C8;
     border-radius: 20px;
-
 }
 
 td {
@@ -95,6 +93,4 @@ input[type="number"] {
     background-clip: padding-box;
     border: 1px solid #bdbdbd;
     border-radius: 0.4rem;
-    margin-bot: -50px;
 }
-
